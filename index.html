@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ma Page Web</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+ 
+ 
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/prettyphoto/css/prettyphoto.css" rel="stylesheet">
+  <link href="lib/hover/hoverex-all.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+  <div id="h">
+    <div class="logo">
+      <h2></h2>
+    </div>
+    
+    <!--/logo-->
+    <div class="container centered">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h1>Hello, mon nom est <b>Corine Lemokem Kissok</b>.<br/>Je crée les sites web.</h1>
+        </div>
+      </div>
+      <!--/row-->
+
+      <div class="row mt">
+        <div class="col-sm-4">
+          <i class="ion-ios7-monitor-outline"></i>
+          <h3>Design: 5%</h3>
+        </div>
+        <!--/col-md-4-->
+
+        <div class="col-sm-4">
+          <i class="ion-ios7-browsers-outline"></i>
+          <h3>Développement web: 90%</h3>
+        </div>
+        <!--/col-md-4-->
+
+        <div class="col-sm-4">
+          <i class="ion-ios7-copy-outline"></i>
+          <h3>Création de BD: 100%</h3>
+        </div>
+        <!--/col-md-4-->
+
+      </div>
+      <!--/row-->
+    </div>
+    <!--/container-->
+  </div>
+  <!--H-->
+
+  <div class="container ptb">
+    <div class="row">
+      <h2 class="centered mb">Je crée de beaux sites web.<br/></h2>
+      <div class="col-md-6">
+        <p>Passionnée par l'informatique, j'ai décidé de me lancer dans la programmation web. Beaucoup de d'entreprises voient le jour chaque mois et ont besoin d'informatiser leurs données, faire des publicités et des sites web.</p>
+      </div>
+      <!--/col-md-6-->
+      <div class="col-md-6">
+        <p>Je connais pas tous les langages. Je fais plus la <b>la programmation web</b>. Comme je vous le montre ci-dessus, je ne suis pas forte en design mais cela ne m'empeche pas d'utiliser booststrap ou un cms de temps en temps. Je suis habile dans mon travail et honnête.</p>
+      </div>
+      <!--/col-md-6-->
+    </div>
+    <!--/row-->
+  </div>
+  <!-- /.container -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <img src="img/items.png" class="img-responsive" alt="">
+      </div>
+    </div>
+    <!--/row-->
+  </div>
+  <!--/.container-->
+
+  <div id="sep">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-md-8 col-md-offset-2">
+          <h1>J'habite au Cameroun, dans la ville de Yaoundé</h1>
+          <h3 class="mb">Le Cameroun est un pays en voie de développement.<br/>Pour plus d'informations, veuillez visiter le site ci-dessous:</h3>
+          <button type = "button" class = "btn btn-danger" href = "http://www.mintp.cm/fr/projets-realisations">Les Travaux Routiers</button>
+        </div>
+      </div>
+      <!--/row-->
+    </div>
+    <!--/container-->
+  </div>
+  <!--/.sep-->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h2 class="centered">Contactez moi</h2>
+          <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
+
+            <div class="form-group">
+              <input type="name" name="name" class="form-control" id="contact-name" placeholder="Votre Nom" data-rule="minlen:4" data-msg="Please enter at least 4 chars" >
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control" id="contact-email" placeholder="Votre E-mail" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+
+            <div class="form-group">
+              <textarea class="form-control" name="message" id="contact-message" placeholder="Message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+              <div class="validate"></div>
+            </div>
+
+            <div class="loading"></div>
+            <div class="error-message"></div>
+            <div class="sent-message">Votre message a été envoyé. Merci!</div>
+
+            <div class="form-send">
+              <button type="submit" class="btn btn-large">J'envois</button>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / contact -->
+
+  
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/prettyphoto/js/prettyphoto.js"></script>
+  <script src="lib/isotope/isotope.min.js"></script>
+  <script src="lib/hover/hoverdir.js"></script>
+  <script src="lib/hover/hoverex.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
